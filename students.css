@@ -1,0 +1,35 @@
+.caption-heading {
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(232, 4, 4);
+    text-shadow: 10px 10px 10px  #695e5e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+    border-radius: 6px;
+    box-shadow: 20px 20px 10px  #66b8cd;
+
+    font-size: large;
+    background-color: aqua;
+    /* padding: 60px; */
+    padding: 40px 60px 60px 60px;
+}
+.Student_Information{
+    font-size: 30px;
+    /* padding: 30px; */
+    padding-bottom: 15px;
+    /* text-shadow: 0px 2px 6px #807272; */
+}
+.Marks{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size:25px ;
+}
+.Get_Result{
+    padding: 5px;
+    margin-top: 30px;
+    background-color: cadetblue;
+    border-radius: 6px;
+    border: 1px solid rgb(73, 75, 77);
+}

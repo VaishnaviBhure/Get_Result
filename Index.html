@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="students.css">
+    <title>Student</title>
+</head>
+
+<body>
+    <h1 class="caption-heading">Student Mark Report</h1>
+    <table align="center" cellspacing="0" class="box">
+
+        <tr align="center">
+            <td colspan="2" class=" Student_Information"><label for="">Student Information</label></td>
+        </tr>
+
+        <tr>
+            <td><label for="">RollNo</label></td>
+            <td><input type="text" name="" id="rno"></td>
+        </tr>
+        <tr>
+            <td><label for="">Name</label></td>
+            <td><input type="text" name="" id="sna"></td>
+        </tr>
+        <tr align="center">
+            <td colspan="2"  class=" Marks"><label for="">Marks</label></td>
+        </tr>
+        <tr>
+            <td><label for="">HTML</label></td>
+            <td><input type="text" name="" id="hm"></td>
+        </tr>
+        <tr>
+            <td><label for="">CSS</label></td>
+            <td><input type="text" name="" id="cm"></td>
+        </tr>
+        <tr>
+            <td><label for="">js</label></td>
+            <td><input type="text" name="" id="jm"></td>
+        </tr>
+        <tr align="center">
+            <td colspan="2"><button onclick="getResult()" class="Get_Result"> Get Result</button></td>
+            <!-- <td colspan="2"><button></button></td> -->
+        </tr>
+        <tr align="center">
+            <td colspan="2"><output id="total"></output></td>
+        </tr>
+        <tr align="center">
+            <td colspan="2"><output id="average"></output></td>
+        </tr>
+        <tr align="center">
+            <td colspan="2"><output id="grade"></output></td>
+        </tr>
+
+    </table>
+    <script src="student.js"></script>
+
+</body>
+
+</html>
